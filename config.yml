@@ -1,0 +1,28 @@
+# 戳一戳回复消息
+poke_responses:
+  - "别戳了喵.....受..受不了了...♥"
+  - "哎呀还戳呀....快被榨干了......♥"
+  - "别戳我哪里啦...被榨干了...♥"
+
+# 表情包 API 映射
+emoji_url_mapping:
+  咬: "https://api.lolimi.cn/API/face_suck/api.php"
+  捣: "https://api.lolimi.cn/API/face_pound/api.php"
+  玩: "https://api.lolimi.cn/API/face_play/api.php"
+  拍: "https://api.lolimi.cn/API/face_pat/api.php"
+  丢: "https://api.lolimi.cn/API/diu/api.php"
+  撕: "https://api.lolimi.cn/API/si/api.php"
+  爬: "https://api.lolimi.cn/API/pa/api.php"
+
+# 随机触发表情包的概率
+random_emoji_trigger_probability: 0
+
+# 功能开关
+feature_switches:
+  poke_response_enabled: true  # 戳机器人回复功能开关
+  poke_back_enabled: true  # 戳回功能开关
+  emoji_trigger_enabled: true  # 触发表情包功能开关
+
+# 戳 Bot 反击相关概率
+poke_back_probability: 0.3  # 戳 Bot 后反击的概率
+super_poke_probability: 0.3  # 超级加倍（多次戳回）的概率
